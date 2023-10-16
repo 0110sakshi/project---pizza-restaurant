@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- navbar1 -->
+    <nav>
+      <div class="navbar1">
+        <div class="contact">
+          <img
+            src="https://img.icons8.com/ios-glyphs/30/FFFFFF/contact-card.png"
+            alt="contact-card"
+            width="50"
+            height="50"
+          />
+          <div class="contact_us">
+            <p class="first">98765-98756</p>
+            <p class="second">9:00 AM TO 9:00 PM</p>
+          </div>
+        </div>
+        <div class="webname">
+          <p>Vincent Pizza</p>
+        </div>
+        <div class="cart">
+          <p class="first">Add to cart</p>
+          <img
+            width="50"
+            height="50"
+            src="https://img.icons8.com/glyph-neue/64/FFFFFF/shopping-cart.png"
+            alt="shopping-cart"
+          />
+        </div>
+      </div>
+    </nav>
+    <!-- navbar2 -->
+    <ul class="navbar_2 nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link active" href="./index.htm">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./menu_page/index.htm">Menu</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./about_page/index.htm">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./blog page/index.htm">Blog</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./shop page/index.htm">Shop</a>
+      </li>
+    </ul>
+    <!-- introduction section -->
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://www.zarla.com/images/zarla-pizza-logos-5184x3456-2021022.jpeg?crop=16:9,smart&width=1200&dpr=2"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h3>VINCENT PIZZA</h3>
+            <p>
+              Crafting Pizzas with Love, Passion, and Fresh Ingredients, Because
+              Every Slice Should Be a Celebration of Flavor.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://thefoodschool.com/wp-content/uploads/2023/06/Pizza_landscape-scaled.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h3>VINCENT PIZZA</h3>
+            <p>
+              At Our Pizzeria, We're Not Just Making Pizzas; We're Crafting
+              Memories, One Delicious Pie at a Time.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://files.yappe.in/place/full/pizza-cut-7319244.webp"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h3>VINCENT PIZZA</h3>
+            <p>
+              Our Commitment to Perfection Bakes in Every Pie – Because When It
+              Comes to Pizza, We Set the Standard.
+            </p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- services section-->
+    <div class="services_section">
+      <!-- <img class="services_img" src="./services.png" alt=""> -->
+      <div class="row content_services py-5 row-cols-1 row-cols-lg-3">
+        <div class="feature col content_service">
+          <div
+            class="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-2 mb-3"
+          >
+            <img
+              src="./services_img/services1.png"
+              alt=""
+              height="60rem"
+              width="60rem"
+            />
+          </div>
+          <h3 class="fs-2 text-body-emphasis">Quality foods</h3>
+          <p>
+            Paragraph of text beneath the heading to explain the heading. We'll
+            add onto it with another sentence and probably just keep going until
+            we run out of words.
+          </p>
+        </div>
+        <div class="feature col">
+          <div
+            class="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-2 mb-3"
+          >
+            <img
+              src="./services_img/services2truck.png"
+              alt=""
+              height="60rem"
+              width="60rem"
+            />
+          </div>
+          <h3 class="fs-2 text-body-emphasis">Fastest delivery</h3>
+          <p>
+            Paragraph of text beneath the heading to explain the heading. We'll
+            add onto it with another sentence and probably just keep going until
+            we run out of words.
+          </p>
+        </div>
+        <div class="feature col">
+          <div
+            class="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-2 mb-3"
+          >
+            <img
+              src="./services_img/servicesVegetables.png"
+              alt=""
+              height="60rem"
+              width="60rem"
+            />
+          </div>
+          <h3 class="fs-2 text-body-emphasis">original recipes</h3>
+          <p>
+            Paragraph of text beneath the heading to explain the heading. We'll
+            add onto it with another sentence and probably just keep going until
+            we run out of words.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- deals section -->
+    <div class="deals_section">
+      <h2 class="fs-1">HOT SALES</h2>
+      <div class="deals_content row g-4 py-5 row-cols-1 row-cols-lg-4">
+        <div class="feature col">
+          <div
+            class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3"
+          >
+            <img src="./deals pic/deals1.png" alt="" height="150" width="150" />
+          </div>
+          <h3 class="fs-4">CARBONARA</h3>
+          <p>
+            Classic Marinara sauce, authentic old-world pepperoni, all natural
+            italian.
+          </p>
+          <h3>$3.80</h3>
+        </div>
+        <div class="feature col">
+          <div
+            class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3"
+          >
+            <img src="./deals pic/deals2.png" alt="" height="150" width="150" />
+          </div>
+          <h3 class="fs-4">CAPRICCIOSA</h3>
+          <p>
+            Classic Marinara Sauce authentic old-world pepperoni, all natural
+            italian.
+          </p>
+          <h3>$5.1</h3>
+        </div>
+        <div class="feature col">
+          <div
+            class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3"
+          >
+            <img src="./deals pic/deals3.png" alt="" height="150" width="150" />
+          </div>
+          <h3 class="fs-4">PROSCIUTTO</h3>
+          <p>
+            Classic Marinara Sauce authentic old-world pepperoni, all natural
+            italian.
+          </p>
+          <h3>$4.9</h3>
+        </div>
+        <div class="feature col">
+          <div
+            class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3"
+          >
+            <img src="./deals pic/deals4.png" alt="" height="150" width="150" />
+          </div>
+          <h3 class="fs-4">DIABLO</h3>
+          <p>
+            Classic Marinara Sauce authentic old-world pepperoni, all natural
+            italian.
+          </p>
+          <h3>$3.7</h3>
+        </div>
+      </div>
+    </div>
+
+    <!-- who we are -->
+
+    <div class="about_content">
+      <div class="content1">
+        <h2>WE ARE LEGEND</h2>
+        <p>
+          WE DO NOT JUST MAKE PIZZA. WE MAKE PEOPLES DAYS. VINCENT PIZZERIA WAS
+          BUILT ON THE BELIEF THAT PIZZA SHOULD BE SPECIAL, AND WE CARRY THAT
+          BELIEF INTO EVERYTHING WE DO.
+        </p>
+        <hr />
+        <p>
+          What’s our purpose at Vincent? Moments of Excitement. All made
+          possible by our flavor, innovation and, most importantly, by unlocking
+          potential in our team members.
+        </p>
+
+        <p>
+          With more than 50 years of experience under our belts, we understand
+          how to best serve our customers through tried and true service
+          principles. Instead of following trends, we set them. We create food
+          we’re proud to serve and deliver it fast, with a smile. No matter
+          where you find us, we’re making sure each meal our customers enjoy is
+          delicious and one-of-a-kind.
+        </p>
+      </div>
+      <div class="content2">
+        <div class="first_para">
+          <p>
+            Vincent was one of the first restaurants I discovered upon moving to
+            New York last summer, and it remains a favorite. Despite its sizable
+            menu full of pastas, sandwiches, and pizzas, I almost always get the
+            same thing – the Vincent pizza. It’s made with Ricotta & Marinara
+            sauces, spiced with oregano, and topped with eggplant, red onions,
+            basil, Pecorino Romano & Mozzarella. It really is one of the best
+            pizzas I’ve ever had – and I eat a lot of pizza.
+          </p>
+        </div>
+        <div class="president1">
+          <div class="president_image">
+            <img
+              src="https://www.myhomegroup.com/wp-content/uploads/2021/01/unnamed-22.png"
+              alt=""
+              width="50"
+              height="50"
+            />
+          </div>
+          <div class="president_content">
+            <h6>ADAM JEFFERSON</h6>
+            <p>Lawyer, New York</p>
+          </div>
+        </div>
+        <div class="second_para">
+          The pizza is delicious! The crust is thin and crispy, great sauce, and
+          awesome cheese blend. And it makes a cute cheap date!
+        </div>
+        <div class="president2">
+          <div class="president_image">
+            <img
+              src="https://www.naegele.law/files/media/Team/Team_2023/Veronika_Votchel.png"
+              alt=""
+              width="50"
+              height="50"
+            />
+          </div>
+          <div class="president_content">
+            <h6>SARA WELCH</h6>
+            <p fs="4">Doctor, New York</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- menu section -->
+    <div class="pizza_menu">
+      <p class="fs-1">DISCOVER OUR MENU</p>
+      <div class="row pizza_div">
+        <div class="pizza_cards col-lg-3 col-md-6 col-sm-12">
+          <img src=".//shop page/pizza_img/pizza1.gif" height="150" alt="" />
+          <h3>MARGHERITA</h3>
+          <p>
+            Classic marinara sauce, authentic old-world pepperoni,
+            all-natural...
+          </p>
+          <h3>$2.60</h3>
+        </div>
+        <div class="pizza_cards col-lg-3 col-md-6 col-sm-12">
+          <img src=".//shop page/pizza_img/pizza2.gif" height="150" alt="" />
+          <h3>VINCENT</h3>
+          <p>
+            Classic marinara sauce, authentic old-world pepperoni,
+            all-natural...
+          </p>
+          <h3>$2.60</h3>
+        </div>
+        <div class="pizza_cards col-lg-3 col-md-6 col-sm-12">
+          <img src=".//shop page/pizza_img/pizza3.gif" height="150" alt="" />
+          <h3>PEPPERONI</h3>
+          <p>
+            Classic marinara sauce, authentic old-world pepperoni,
+            all-natural...
+          </p>
+          <h3>$2.60</h3>
+        </div>
+        <div class="pizza_cards col-lg-3 col-md-6 col-sm-12">
+          <img src=".//shop page/pizza_img/pizza4.gif" height="150" alt="" />
+          <h3>DIABLO</h3>
+          <p>
+            Classic marinara sauce, authentic old-world pepperoni,
+            all-natural...
+          </p>
+          <h3>$2.60</h3>
+        </div>
+        <div class="pizza_cards col-lg-3 col-md-6 col-sm-12">
+          <img src=".//shop page/pizza_img/pizza5.gif" height="150" alt="" />
+          <h3>CARBONARA</h3>
+          <p>
+            Classic marinara sauce, authentic old-world pepperoni,
+            all-natural...
+          </p>
+          <h3>$2.60</h3>
+        </div>
+        <div class="pizza_cards col-lg-3 col-md-6 col-sm-12">
+          <img src=".//shop page/pizza_img/pizza6.gif" height="150" alt="" />
+          <h3>CAPRICCIOSA</h3>
+          <p>
+            Classic marinara sauce, authentic old-world pepperoni,
+            all-natural...
+          </p>
+          <h3>$2.60</h3>
+        </div>
+        <div class="pizza_cards col-lg-3 col-md-6 col-sm-12">
+          <img src=".//shop page/pizza_img/pizza7.gif" height="150" alt="" />
+          <h3>PROSCIUTTO</h3>
+          <p>
+            Classic marinara sauce, authentic old-world pepperoni,
+            all-natural...
+          </p>
+          <h3>$2.60</h3>
+        </div>
+        <div class="pizza_cards col-lg-3 col-md-6 col-sm-12">
+          <img src=".//shop page/pizza_img/pizza8.gif" height="150" alt="" />
+          <h3>SAPORITA</h3>
+          <p>
+            Classic marinara sauce, authentic old-world pepperoni,
+            all-natural...
+          </p>
+          <h3>$2.60</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="newsletter">
+      <hr />
+      <p class="fs-2">SUBSCRIBE TO OUR NEWSLETTER</p>
+      <form action="" class="newsletter_form">
+        <input type="text" placeholder="ENTER YOUR EMAIL" />
+        <button class="btn button_newsletter">SUBMIT</button>
+      </form>
+    </div>
+
+    <!-- footer -->
+    <div class="menu_footer">
+      <div class="footer_content">
+        <img src="./logo.png" alt="" />
+        <div class="contact_timing">
+          <span class="contact_footer fs-4">98771-57780. </span>
+          <span class="timing"> 10:00 AM to 10:00 PM</span>
+        </div>
+      </div>
+    </div>
+    <!-- footer navbar -->
+    <ul class="navbar_2 nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link active" href="./index.htm">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./menu_page/index.htm">Menu</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./about_page/index.htm">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./blog page/index.htm">Blog</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./shop page/index.htm">Shop</a>
+      </li>
+    </ul>
+
+    <div class="copyright_section">
+      <p>Copyright © 2020 Vincent. All Rights Reserved.</p>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
